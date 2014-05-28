@@ -10,9 +10,8 @@ The truth is, PHP is flawed and generally not a pleasant language to work with, 
 
 In the case that your next weekend project suddenly takes over the world by storm, you don't want it to be written in PHP. Getting a PHP code base to stay clean requires unprecedented effort, so sooner or later you will be forced to either 1) rewrite it, or 2) develop a whole bunch of bureaucratic rules, just to maintain the code at a humanly comprehensible level. However:
 
-1) As most developers are aware by now, rewriting the whole code base is [a very bad idea][badidea].
-
-2) Even Facebook finds it hard to maintain a PHP core, and only allows veteran developers to touch it.
+ * As most developers are aware by now, rewriting the whole code base is [a very bad idea][badidea].
+ * Even Facebook finds it hard to maintain a PHP core, and only allows veteran developers to touch it.
 
 So don't do it. Python is amazing. Ruby is awesome. They are well regarded, and have a bright future ahead of them (so you won't have trouble recruiting).
 

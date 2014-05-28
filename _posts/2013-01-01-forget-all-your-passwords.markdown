@@ -23,6 +23,7 @@ KeePass allows you to maintain a database of all of your logins and passwords. O
 The database itself is encrypted, and you can store it where ever you want. What makes most sense, is to just store it on your DropBox account.
 
 The security of the system then depends on two passwords:
+
  * DropBox account password
  * KeePass database password
 
