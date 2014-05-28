@@ -18,6 +18,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
+h1 { font-size: 24px; }
+
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
@@ -144,11 +146,13 @@ a:visited { color: #205caa; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+.home h1 { 
+  margin-bottom: 25px; 
+}
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { margin-bottom: 10px; }
 
 .posts .post-link {
   font-size: 24px;
@@ -237,6 +241,16 @@ a:visited { color: #205caa; }
 }
 
 .post code { padding: 1px 5px; }
+
+ul.me { 
+  margin-left: 0px;
+  margin-bottom: 30px; 
+  margin-top: 15px;
+  list-style: none;
+}
+
+.me li {
+}
 
 .post ul,
 .post ol { margin-left: 1.35em; }

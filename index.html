@@ -4,17 +4,26 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h1>Hello</h1>
+
+  <p>
+  I'm Darius, a Software Engineer and Entrepreneur. I live in <a href="https://www.google.com/maps/place/Edinburgh/">Edinburgh, Scotland.</a><br/>I graduated from the University of Edinburgh and previously did internships at Google and Cisco.<br />
+  </p>
+  <ul class="me">
+    <li>See my profile on <a href="http://www.linkedin.com/in/scdarius">LinkedIn</a></li>
+    <li>Find my projects on <a href="https://github.com/darka">GitHub</a></li>
+    <li>Follow me on <a href="https://twitter.com/#!/scdarius">Twitter</a> or <a href="https://www.facebook.com/darka">Facebook</a></li>
+    <li>Contact me by <a href="mailto:darius.scerb@gmail.com?Subject=Hey">E-mail</a></li>
+  </ul>
+
+  <h1>Writings</h1>
 
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
