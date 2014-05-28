@@ -152,14 +152,6 @@ a:visited { color: #205caa; }
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 10px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-
 .posts .post-date {
   display: block;
   font-size: 15px;
@@ -247,9 +239,6 @@ ul.me {
   margin-bottom: 30px; 
   margin-top: 15px;
   list-style: none;
-}
-
-.me li {
 }
 
 .post ul,
