@@ -1,9 +1,11 @@
 # Site settings
 title: darius s.
 email: darius.scerb@gmail.com
-description: "Full Stack Software Engineer / Entrepreneur in Edinburgh"
+description: "Software Engineer / Entrepreneur in Edinburgh"
 baseurl: ""
 url: "http://dariuss.net"
+github_username: darka
+twitter_username: scdarius
 
 # Build settings
 markdown: kramdown
