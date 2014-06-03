@@ -2,7 +2,7 @@
 layout: post
 title:  "Mitigating Software Project Failure"
 date:   2014-03-14 16:23:39
-categories: jekyll update
+categories: blog 
 ---
 ## Introduction
 

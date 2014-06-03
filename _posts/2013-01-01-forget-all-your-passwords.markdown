@@ -2,7 +2,7 @@
 layout: post
 title:  "Forget All Your Passwords"
 date:   2013-01-01 18:29:36
-categories: jekyll update
+categories: blog 
 ---
 
 It seems to be the case that most people either use the same password or similar passwords on many websites they frequent. Since it is not always clear whether your password is stored securely on some website, you can never be sure whether the website's administrator didn't just gain access to all of your precious Internet accounts.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Why PHP Is Not the Best Language For a Weekend Project"
 date:   2013-01-26 13:13:43
-categories: jekyll update
+categories: blog 
 ---
 PHP is a language and an ecosystem with a huge following, and despite the criticism it has received throughout the years, many major sites, such as Facebook, are still using it.
 

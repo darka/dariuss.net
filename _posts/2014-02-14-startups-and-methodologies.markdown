@@ -2,7 +2,7 @@
 layout: post
 title:  "Startups and Development Methodologies"
 date:   2014-02-14 12:31:01
-categories: jekyll update
+categories: blog
 ---
 
 ## Introduction
