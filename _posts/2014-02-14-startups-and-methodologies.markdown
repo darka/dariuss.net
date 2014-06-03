@@ -9,10 +9,11 @@ categories: jekyll update
 
 When it comes to early stage technology startups, software development is usually done in an ad-hoc way, without adhering to any specific rules. This is not surprising, considering startups usually have 2-3 co-founders, and not all of them are necessarily doing development. One of the co-founders is often non-technical, and handles the business side of the startup. Generally, you don't expect kids operating a company from a garage to thoroughly follow a software development methodology.
 
-![Google](http://blog.inf.ed.ac.uk/sapm/files/2014/02/google-300x117.png)
-
-Sergey and Larry were running Google from a garage and were lousy coders.
+<p style="text-align: center;font-size: 12px">
+<img alt="google" src="http://blog.inf.ed.ac.uk/sapm/files/2014/02/google-300x117.png" height="117" width="300"><br />
+Sergey and Larry were running Google from a garage and were <a href="http://www.businessinsider.com/larry-page-sergy-brin-are-lousy-coders-2013-10">lousy coders.</a><br>
 Fortunately they now have the resources to fix their code.
+</p>
 
 However, my experience working for a few startups, including one early stage startup, has shown that not adopting a software development methodology as early as possible causes a lot of headaches later. Despite the low number of people involved at the beginning, most startups develop both long-term and large-scale projects. Not adhering to any software development methodology when working on large projects leads to flaws in the implementation, buggy and poorly documented code, and loss of productive development time in the long run.
 
@@ -20,11 +21,13 @@ However, my experience working for a few startups, including one early stage sta
 
 At a startup most of the code ends up being written in an ad-hoc manner due to lack of direction. Whenever a customer requires a new feature, and the architecture is found to be unsuitable for it, the developer usually ends up implementing the feature as a hack, rather than properly integrating it into the software. If this kind of development continues, and the number of hacks in the implementation increases, the code base becomes fairly hard to navigate.
 
-As early stage startups usually do not have the resources needed to produce complete hand-written software documentation, they rely on automatic documentation generators (such as Doxygen) to at least document the APIs. However, multitudes of hacks greatly increase the complexity of the code base, such that the quality of documentation produced by the tools suffers. When a startup hires a new developer, it will take a lot of time for him or her to comprehend the code base.
+As early stage startups usually do not have the resources needed to produce complete hand-written software documentation, they rely on automatic documentation generators (such as [Doxygen][doxygen]) to at least document the APIs. However, multitudes of hacks greatly increase the complexity of the code base, such that the quality of documentation produced by the tools suffers. When a startup hires a new developer, it will take a lot of time for him or her to comprehend the code base.
 
-![Facebook](http://blog.inf.ed.ac.uk/sapm/files/2014/02/fb1.png)
-
-Facebook also suffered from code quality problems: it was written in PHP. They are still dealing with that.
+<p style="text-align: center;font-size: 12px">
+<img alt="fb" src="http://blog.inf.ed.ac.uk/sapm/files/2014/02/fb1.png" height="98" width="260"><br>
+Facebook also suffered from code quality problems: it was written in PHP.<br />
+<a href="http://www.quora.com/Facebook-Engineering/Why-hasn-t-Facebook-migrated-away-from-PHP">They are still dealing with that.</a>
+</p>
 
 Similar problems affect the testing side of startup software. Few test cases are written, so a lot of bugs are missed during development, and only encountered by the customer once the software is shipped. If such a bug is deemed critical (e.g. it may cause data loss to the customer), the developer has to rush to fix it, leading to even more hacks in the software code.
 
@@ -49,3 +52,10 @@ Since early stage startup teams are so small, implementing Pair Programming and 
 ## Conclusion
 
 Obviously, following agile practices during startup development slows down short-term progress due to some overhead. However, considering the number of problems which are eventually avoided, this is more than worth the effort. Unless you are building a startup you know is doomed to fail, adopting an agile development methodology early on will eventually save both time and money.
+
+_Originally published in [SAPM Blog.][original]_
+
+[original]: http://blog.inf.ed.ac.uk/sapm/2014/02/14/startups-and-development-methodologies/
+[lousy]: http://www.businessinsider.com/larry-page-sergy-brin-are-lousy-coders-2013-10
+[doxygen]: http://www.doxygen.org/
+[fbphp]: http://www.quora.com/Facebook-Engineering/Why-hasn-t-Facebook-migrated-away-from-PHP
