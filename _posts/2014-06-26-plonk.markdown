@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Plonk"
+date:   2014-06-16 19:12:20
+categories: blog 
+---
+[Plonk][plonk] is an underwater submarine defense Flash game I built back in 2009.
+
+Code is available on [GitHub][plonk_git], but I'd rather rewrite it in HTML5.
+
+[![Plonk](/images/plonk.png)][plonk]
+
+[plonk]: http://dariuss.net/plonk
+[plonk_git]: https://github.com/darka/plonk
