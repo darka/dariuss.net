@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Plonk"
+title:  "Flash Game: Plonk"
 date:   2014-06-16 19:12:20
 categories: blog 
 ---
